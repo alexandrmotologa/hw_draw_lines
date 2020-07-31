@@ -6,9 +6,9 @@ def drawLine(length, direction):
             length -= 1
             break
     if direction == "v":
-            while length >= 0:
-                print("|\n"*int(length))
-                length -= 1
-                break
+        while length >= 0:
+            print("|\n"*int(length))
+            length -= 1
+            break
 
 drawLine(5, "v")
